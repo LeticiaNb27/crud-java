@@ -1,0 +1,23 @@
+*{
+    -fx-text-fill: #ccc;
+}
+
+#AnchorPane{
+    -fx-background-color: #212121;
+    -fx-font-size: 14pt;
+    
+}
+
+#panel-top{
+    -fx-background-color: #740000;
+}
+
+
+#btn-salvar{
+    -fx-background-color: #045100;
+}
+
+#btn-cancelar{
+    -fx-background-color: #fe6427;
+}
+

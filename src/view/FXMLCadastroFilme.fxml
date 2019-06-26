@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="529.0" prefWidth="583.0" stylesheets="@../css/style.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FXMLCadastroFilmeController">
+   <children>
+      <Label layoutX="105.0" layoutY="113.0" text="Nome:" />
+      <Button id="btn-salvar" fx:id="btnSalvar" layoutX="160.0" layoutY="464.0" mnemonicParsing="false" onAction="#salvar" prefHeight="41.0" prefWidth="118.0" text="Salvar" />
+      <TextField fx:id="txtNome" focusTraversable="false" layoutX="191.0" layoutY="107.0" prefHeight="37.0" prefWidth="291.0" promptText="Nome" />
+      <Pane id="panel-top" prefHeight="68.0" prefWidth="583.0">
+         <children>
+            <Label layoutX="178.0" layoutY="12.0" prefHeight="45.0" prefWidth="266.0" text="FILMES E SERIES">
+               <font>
+                  <Font name="System Bold" size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <DatePicker fx:id="dateLancamento" focusTraversable="false" layoutX="191.0" layoutY="161.0" promptText="Selecione a data" />
+      <Label layoutX="74.0" layoutY="167.0" text="Lançamento:" />
+      <TextArea fx:id="txtDescricao" focusTraversable="false" layoutX="184.0" layoutY="232.0" prefHeight="200.0" prefWidth="321.0" promptText="Digite a descrição do filme" />
+      <Label layoutX="93.0" layoutY="232.0" text="Descrição:" />
+      <Button id="btn-cancelar" fx:id="btnCancelar" layoutX="345.0" layoutY="464.0" mnemonicParsing="false" onAction="#cancelar" prefHeight="41.0" prefWidth="118.0" text="Cancelar" />
+   </children>
+</AnchorPane>

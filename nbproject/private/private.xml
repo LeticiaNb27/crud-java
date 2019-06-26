@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/G:/FS/src/view/FXMLVisualizar.fxml</file>
+            <file>file:/G:/FS/src/controller/FXMLCadastroFilmeController.java</file>
+            <file>file:/G:/FS/src/view/FXMLCadastroFilme.fxml</file>
+            <file>file:/G:/FS/src/controller/FXMLPrincipalController.java</file>
+            <file>file:/G:/FS/src/view/FXMLPrincipal.fxml</file>
+            <file>file:/G:/FS/src/dao/FilmesDAO.java</file>
+            <file>file:/G:/FS/src/dao/Conexao.java</file>
+            <file>file:/G:/FS/src/view/Palco.java</file>
+            <file>file:/G:/FS/src/controller/FXMLVisualizarController.java</file>
+        </group>
+    </open-files>
+</project-private>
